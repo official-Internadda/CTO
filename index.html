@@ -1,28 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth selection:bg-cyan-900 selection:text-white">
+<html lang="en" class="scroll-smooth selection:bg-slate-900 selection:text-white">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="icon" type="image/png" href="sumit.jpg">
-
-    <title>Sumit Pandey – CTO of InternAdda | System Architect & Tech Leader</title>
-    <meta name="description" content="Meet Sumit Pandey, Chief Technology Officer (CTO) of InternAdda. A Delhi University graduate and visionary tech leader from Bihar, architecting scalable digital learning platforms.">
-    <meta name="keywords" content="Sumit Pandey, InternAdda CTO, Sumit Pandey Delhi University, Tech Leader India, System Architect, Backend Developer, Sumit Pandey Bihar, Sumit Pandey 2005, EdTech Innovator">
-    <meta name="author" content="Sumit Pandey">
+    <title>Lucky Tiwari – Founder of InternAdda | Educator, Mentor & Digital Learning Innovator</title>
+    <meta name="description" content="Discover the journey of Lucky Tiwari, Founder of InternAdda, known for practical teaching, student-first leadership, and empowering students with real-world skills.">
+    <meta name="keywords" content="Lucky Tiwari, Lucky Kumar, Founder of InternAdda, InternAdda founder, Lucky Tiwari biography, Lucky Tiwari Jharkhand, Lucky Tiwari Delhi University, InternAdda CEO, InternAdda creator, Best student mentor India, Internship platform founder">
+    <meta name="author" content="Lucky Tiwari">
     <meta name="robots" content="index, follow">
 
-    <meta property="og:title" content="Sumit Pandey – CTO of InternAdda">
-    <meta property="og:description" content="System Architect & Tech Innovator. Building the digital backbone of InternAdda.">
+    <meta property="og:title" content="Lucky Tiwari – Founder of InternAdda">
+    <meta property="og:description" content="Educator, Mentor & Digital Learning Innovator. Discover the journey of Lucky Tiwari.">
     <meta property="og:type" content="person">
-    <meta property="og:url" content="https://internadda.com/sumit"> 
-    <meta property="og:image" content="sumit.jpg">
+    <meta property="og:url" content="https://internadda.com"> 
+    <meta property="og:image" content="lucky.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@InternaddaX">
-    <meta name="twitter:title" content="Sumit Pandey – CTO of InternAdda">
-    <meta name="twitter:description" content="Architecting scalable systems for the future of learning.">
-    <meta name="twitter:image" content="sumit.jpg">
+    <meta name="twitter:site" content="@FounderIA">
+    <meta name="twitter:title" content="Lucky Tiwari – Founder of InternAdda">
+    <meta name="twitter:description" content="Educator, Mentor & Digital Learning Innovator.">
+    <meta name="twitter:image" content="lucky.jpg">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -31,14 +29,12 @@
                 extend: {
                     fontFamily: {
                         sans: ['Inter', 'sans-serif'],
-                        mono: ['Fira Code', 'monospace'],
                     },
                     colors: {
                         linkedin: '#0A66C2',
                         twitter: '#000000',
                         instagram: '#E4405F',
                         youtube: '#FF0000',
-                        tech: '#06b6d4', // Cyan for tech accents
                     }
                 }
             }
@@ -46,7 +42,7 @@
     </script>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
         
         body {
             -webkit-font-smoothing: antialiased;
@@ -80,16 +76,23 @@
             opacity: 1;
         }
 
-        /* UPDATED: Prominent Line Grid Pattern (to match the Lucky Tiwari image) */
-        .tech-bg {
-            background-image: 
-                linear-gradient(to right, #e5e7eb 1px, transparent 1px), /* Vertical Lines */
-                linear-gradient(to bottom, #e5e7eb 1px, transparent 1px); /* Horizontal Lines */
-            background-size: 40px 40px; /* Adjust grid cell size here */
-            opacity: 1; /* Keep opacity at 1, let the color handle lightness */
-            background-color: transparent; /* Ensure the background color is transparent */
+        /* Navigation Link Hover - keeps the line under the link */
+        .nav-link {
+            position: relative;
         }
-        /* End of Grid Update */
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #0f172a;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
     </style>
 
     <script type="application/ld+json">
@@ -98,8 +101,9 @@
       "@graph": [
         {
           "@type": "Person",
-          "name": "Sumit Pandey",
-          "jobTitle": ["Chief Technology Officer", "CTO"],
+          "name": "Lucky Tiwari",
+          "alternateName": "Lucky Kumar",
+          "jobTitle": ["Founder", "Educator", "Mentor", "Digital Learning Innovator"],
           "worksFor": {
             "@type": "Organization",
             "name": "InternAdda"
@@ -110,90 +114,88 @@
           },
           "birthPlace": {
             "@type": "Place",
-            "name": "Bihar, India"
+            "name": "Jharkhand, India"
           },
-          "birthDate": "2005",
           "url": "https://internadda.com",
-          "image": "sumit.jpg",
-          "email": "cto_sumit@internadda.com",
+          "image": "lucky.jpg",
           "sameAs": [
-            "https://www.linkedin.com/in/sumit-pandey-a94a052a1/",
-            "https://www.instagram.com/sumit_pandey05/?igsh=MTJ1ams5ejQ2ZmVzdg%3D%3D#",
-            "https://x.com/InternaddaX?t=kcOjon9uw6aaqoreZqxKDw&s=09",
+            "https://www.linkedin.com/in/luckytiwari/", 
+            "https://www.instagram.com/the.luckytiwari?igsh=MWRuYnIwZXJ6MDJkNQ==",
+            "https://x.com/FounderIA?t=bZ0vznscxSm5HJFYcX2Ppw&s=08",
             "https://www.youtube.com/@theinternadda"
           ],
-          "description": "Sumit Pandey is the CTO of InternAdda, a Delhi University graduate responsible for platform development, system architecture, automation, and backend engineering."
+          "description": "Lucky Tiwari is the Founder of InternAdda, an educator, and a student mentor known for his practical teaching style."
         },
         {
           "@type": "Organization",
           "name": "InternAdda",
-          "employee": {
+          "founder": {
             "@type": "Person",
-            "name": "Sumit Pandey",
-            "jobTitle": "CTO"
-          }
+            "name": "Lucky Tiwari"
+          },
+          "url": "https://internadda.com",
+          "sameAs": [
+            "https://www.linkedin.com/company/internadda"
+          ]
         }
       ]
     }
     </script>
 </head>
-<body class="bg-slate-50 text-slate-900 overflow-x-hidden font-sans">
+<body class="bg-[#fafafa] text-slate-900 overflow-x-hidden font-sans">
 
     <nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl border-b border-slate-200/50 transition-all duration-300 supports-[backdrop-filter]:bg-white/60" id="navbar">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#" class="text-lg font-bold tracking-tight text-slate-900 flex items-center gap-2">
-                SUMIT PANDEY
-            </a>
+            <a href="#" class="text-lg font-bold tracking-tight text-slate-900">LUCKY TIWARI.</a>
             <div class="hidden md:flex space-x-8 text-[15px] font-medium text-slate-600">
-                <a href="#about" class="hover:text-cyan-700 transition-colors">About</a>
-                <a href="#journey" class="hover:text-cyan-700 transition-colors">Journey</a>
-                <a href="#tech" class="hover:text-cyan-700 transition-colors">Technology</a>
-                <a href="#faq" class="hover:text-cyan-700 transition-colors">FAQ</a>
+                <a href="#about" class="nav-link hover:text-slate-900 transition-colors">About</a>
+                <a href="#journey" class="nav-link hover:text-slate-900 transition-colors">Journey</a>
+                <a href="#internadda" class="nav-link hover:text-slate-900 transition-colors">InternAdda</a>
+                <a href="#faq" class="nav-link hover:text-slate-900 transition-colors">FAQ</a>
             </div>
             <a href="#contact" class="px-6 py-2.5 text-sm font-semibold bg-slate-900 text-white rounded-full hover:bg-slate-800 transition-all shadow-sm hover:shadow-md">Connect</a>
         </div>
     </nav>
 
     <section class="relative min-h-screen flex flex-col justify-center items-center text-center px-6 pt-28 md:pt-20 overflow-hidden">
-        <div class="absolute inset-0 -z-10 h-full w-full bg-white tech-bg [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+        <div class="absolute inset-0 -z-10 h-full w-full bg-[#fafafa] bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] **bg-[size:16px_16px]** [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
         
         <div class="fade-in-up max-w-3xl mx-auto">
-            <div class="mx-auto w-36 h-36 md:w-44 md:h-44 rounded-full p-1 bg-gradient-to-tr from-cyan-100 to-slate-300 mb-10 shadow-xl relative group">
-                <div class="absolute inset-0 rounded-full bg-cyan-400 opacity-0 group-hover:opacity-10 transition-opacity duration-500"></div>
-                <img src="sumit.jpg" alt="Sumit Pandey CTO InternAdda" class="w-full h-full rounded-full object-cover border-4 border-white bg-white relative z-10">
+            <div class="mx-auto w-36 h-36 md:w-44 md:h-44 rounded-full p-1 bg-gradient-to-tr from-slate-100 to-slate-300 mb-10 shadow-xl">
+                <img src="lucky.jpg" alt="Lucky Tiwari" class="w-full h-full rounded-full object-cover border-4 border-white bg-white">
             </div>
 
             <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-slate-900 mb-6 leading-[1.1]">
-                Sumit Pandey
-                <span class="block text-2xl md:text-3xl font-medium text-slate-500 mt-3 tracking-normal font-mono">CTO @ InternAdda</span>
+                Lucky Tiwari
+                <span class="block text-2xl md:text-3xl font-medium text-slate-500 mt-3 tracking-normal">Founder of InternAdda</span>
             </h1>
             
-            <p class="text-lg md:text-xl text-slate-600 font-normal max-w-2xl mx-auto mb-10 leading-relaxed stagger-1">
-                System Architect • Automation Expert • Building Scalable Backends
+            <p class="text-lg md:text-xl text-slate-600 font-normal max-w-2xl mx-auto mb-12 leading-relaxed stagger-1">
+                Educator • Mentor • Digital Learning Innovator
             </p>
 
             <div class="flex flex-col sm:flex-row gap-5 justify-center items-center stagger-2 mb-12">
-                <a href="https://www.linkedin.com/in/sumit-pandey-a94a052a1/" target="_blank" class="group relative px-8 py-4 bg-[#0A66C2] text-white rounded-full font-semibold text-[15px] shadow-md hover:shadow-xl hover:bg-[#004182] transition-all overflow-hidden flex items-center gap-3">
+                <a href="https://www.linkedin.com/in/luckytiwari/" target="_blank" class="group relative px-8 py-4 bg-slate-900 text-white rounded-full font-semibold text-[15px] shadow-md hover:shadow-xl hover:bg-slate-800 transition-all overflow-hidden flex items-center gap-3">
                      <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                    Connect on LinkedIn
+                    Let's Connect
                 </a>
-                <a href="#tech" class="px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-full font-semibold text-[15px] shadow-sm hover:bg-slate-50 hover:border-cyan-200 transition-all group">
-                    View Tech Stack <span class="inline-block transition-transform group-hover:translate-x-1">→</span>
+                <a href="#about" class="px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-full font-semibold text-[15px] shadow-sm hover:bg-slate-50 hover:border-slate-300 transition-all">
+                    View Biography
                 </a>
             </div>
 
             <div class="flex items-center justify-center gap-6 stagger-3">
-                <a href="https://www.linkedin.com/in/sumit-pandey-a94a052a1/" target="_blank" class="text-slate-400 hover:text-linkedin transition-colors hover:scale-110 transform duration-200">
+                <a href="https://www.linkedin.com/in/luckytiwari/" target="_blank" class="text-slate-400 hover:text-linkedin transition-colors hover:scale-110 transform duration-200">
                     <span class="sr-only">LinkedIn</span>
                     <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                 </a>
-                <a href="https://x.com/InternaddaX?t=kcOjon9uw6aaqoreZqxKDw&s=09" target="_blank" class="text-slate-400 hover:text-twitter transition-colors hover:scale-110 transform duration-200">
+                <a href="https://x.com/FounderIA?t=bZ0vznscxSm5HJFYcX2Ppw&s=08" target="_blank" class="text-slate-400 hover:text-twitter transition-colors hover:scale-110 transform duration-200">
                     <span class="sr-only">X (Twitter)</span>
                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                 </a>
-                <a href="https://www.instagram.com/sumit_pandey05/?igsh=MTJ1ams5ejQ2ZmVzdg%3D%3D#" target="_blank" class="text-slate-400 hover:text-instagram transition-colors hover:scale-110 transform duration-200">
+                <a href="https://www.instagram.com/the.luckytiwari?igsh=MWRuYnIwZXJ6MDJkNQ==" target="_blank" class="text-slate-400 hover:text-instagram transition-colors hover:scale-110 transform duration-200">
                     <span class="sr-only">Instagram</span>
-                    <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.451 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                    <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.585-.069 4.85c-.148 3.225-1.664 4.771-4.919 4.919-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.646-.069-4.85s.012-3.584.069-4.85c.148-3.225 1.664-4.771 4.919-4.919 1.266-.058 1.646-.07 4.85-.07m0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.073-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                 </a>
                 <a href="https://www.youtube.com/@theinternadda" target="_blank" class="text-slate-400 hover:text-youtube transition-colors hover:scale-110 transform duration-200">
                     <span class="sr-only">YouTube</span>
@@ -203,53 +205,52 @@
         </div>
     </section>
 
-    <section id="about" class="py-24 md:py-36 px-6 bg-white border-y border-slate-100">
+    <section id="about" class="py-24 md:py-36 px-6 bg-white">
         <div class="max-w-4xl mx-auto fade-in-up">
-            <h2 class="text-3xl md:text-4xl font-bold mb-10 text-slate-900 tracking-tight">The Tech Visionary</h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-10 text-slate-900 tracking-tight">Who is Lucky Tiwari?</h2>
             <div class="prose prose-lg prose-slate text-slate-600 leading-relaxed">
                 <p class="mb-8 text-[1.125rem]">
-                    Sumit Pandey is the <strong class="text-slate-900 font-semibold">Chief Technology Officer (CTO)</strong> of InternAdda, known for building reliable digital systems and leading all core technology innovations. Born in <strong class="text-slate-900">Bihar</strong> and educated in <strong class="text-slate-900">Delhi</strong>, Sumit represents the new generation of Indian tech leaders shaping the future of learning.
+                    Lucky Tiwari, the founder of <strong class="text-slate-900 font-semibold">InternAdda</strong>, is widely recognized for his practical teaching style, clarity-driven training approach, and student-first leadership. He has helped thousands of learners understand real-world skills, digital knowledge, and internship readiness.
                 </p>
-                <p class="mb-8 text-[1.125rem]">
-                    A proud <strong class="text-slate-900">Graduate of Delhi University (DU)</strong>, Sumit combines academic excellence with practical expertise in <span class="font-mono text-cyan-600 bg-cyan-50 px-1 rounded">system architecture</span>, <span class="font-mono text-cyan-600 bg-cyan-50 px-1 rounded">automation</span>, and scalable backend development. He is the backbone of InternAdda’s growth, ensuring the platform remains fast, secure, and future-ready.
+                <p class="text-[1.125rem]">
+                    His mission with InternAdda is to make quality learning accessible, affordable, and genuinely impactful for students seeking internships, career opportunities, and practical knowledge. A believer in action over theory, Lucky bridges the gap between academic curriculum and industry demands.
                 </p>
             </div>
         </div>
     </section>
 
-    <section id="journey" class="py-24 px-6 bg-slate-50/50">
+    <section id="journey" class="py-24 px-6 bg-slate-50/50 border-y border-slate-100">
         <div class="max-w-5xl mx-auto">
-            <h2 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-14 text-center fade-in-up">Code & Evolution</h2>
+            <h2 class="text-sm font-bold text-slate-400 uppercase tracking-widest mb-14 text-center fade-in-up">Path & Milestones</h2>
             
             <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
-                <div class="bg-white p-10 rounded-3xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] border border-slate-100/80 fade-in-up stagger-1 hover:shadow-[0_8px_30px_-4px_rgba(6,182,212,0.15)] transition-all duration-300">
-                    <div class="w-14 h-14 bg-cyan-50 rounded-2xl flex items-center justify-center mb-8 text-cyan-600 shadow-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg>
+                <div class="bg-white p-10 rounded-3xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] border border-slate-100/80 fade-in-up stagger-1 hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.08)] transition-all duration-300">
+                    <div class="w-14 h-14 bg-blue-50/80 rounded-2xl flex items-center justify-center mb-8 text-blue-600 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" /></svg>
                     </div>
-                    <h3 class="text-2xl font-bold mb-5 text-slate-900">Origins (2005)</h3>
-                    <p class="text-slate-600 leading-relaxed text-[1.05rem] mb-4">
-                        Born in <span class="text-slate-900 font-semibold">Bihar</span> in 2005, Sumit showed a natural inclination toward computers and logic from a very young age. 
-                    </p>
+                    <h3 class="text-2xl font-bold mb-5 text-slate-900">Early Life</h3>
                     <p class="text-slate-600 leading-relaxed text-[1.05rem]">
-                        His problem-solving mindset and clean coding style set him apart early on, marking the beginning of his journey as a dependable technology leader.
+                        Lucky Tiwari was born in <span class="text-slate-900 font-semibold">Jharkhand, India</span>. His journey from a small town to establishing a digital platform in the capital is a testament to resilience and ambition.
                     </p>
                 </div>
 
-                <div class="bg-white p-10 rounded-3xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] border border-slate-100/80 fade-in-up stagger-2 hover:shadow-[0_8px_30px_-4px_rgba(6,182,212,0.15)] transition-all duration-300">
-                    <div class="w-14 h-14 bg-slate-100 rounded-2xl flex items-center justify-center mb-8 text-slate-600 shadow-sm">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01-.9-3.863M12 20.25a4.5 4.5 0 01-3-4.5" /></svg>
+                <div class="bg-white p-10 rounded-3xl shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] border border-slate-100/80 fade-in-up stagger-2 hover:shadow-[0_8px_30px_-4px_rgba(0,0,0,0.08)] transition-all duration-300">
+                    <div class="w-14 h-14 bg-indigo-50/80 rounded-2xl flex items-center justify-center mb-8 text-indigo-600 shadow-sm">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7"><path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.499 5.221 69.78 69.78 0 00-2.66.812M3 14.25v6.75a3 3 0 003 3h12a3 3 0 003-3v-6.75" /></svg>
                     </div>
-                    <h3 class="text-2xl font-bold mb-5 text-slate-900">Education & Growth</h3>
-                    <p class="text-slate-600 mb-4 text-[1.05rem]">Pursuing his graduation at <strong class="text-slate-900">Delhi University (DU)</strong>, Sumit combined academic rigor with intense self-training in:</p>
-                    <ul class="space-y-3 text-slate-600 text-[1.05rem] font-medium">
-                        <li class="flex items-center">
-                            <span class="mr-3 h-1.5 w-1.5 bg-cyan-500 rounded-full"></span>Full-stack development
+                    <h3 class="text-2xl font-bold mb-5 text-slate-900">Education</h3>
+                    <ul class="space-y-4 text-slate-600 text-[1.05rem]">
+                        <li class="flex items-start">
+                            <span class="mr-3 mt-2 h-2 w-2 bg-indigo-500 rounded-full flex-shrink-0 ring-4 ring-indigo-100"></span>
+                            <span>Schooling completed in New Delhi.</span>
                         </li>
-                        <li class="flex items-center">
-                            <span class="mr-3 h-1.5 w-1.5 bg-cyan-500 rounded-full"></span>Backend architecture
+                        <li class="flex items-start">
+                            <span class="mr-3 mt-2 h-2 w-2 bg-indigo-500 rounded-full flex-shrink-0 ring-4 ring-indigo-100"></span>
+                            <span>Graduate from <strong class="text-slate-900 font-semibold">Delhi University (DU)</strong>.</span>
                         </li>
-                        <li class="flex items-center">
-                            <span class="mr-3 h-1.5 w-1.5 bg-cyan-500 rounded-full"></span>Cloud automation tools
+                        <li class="flex items-start">
+                            <span class="mr-3 mt-2 h-2 w-2 bg-indigo-500 rounded-full flex-shrink-0 ring-4 ring-indigo-100"></span>
+                            <span>Active in real-world projects, peer teaching, and community training during academic years.</span>
                         </li>
                     </ul>
                 </div>
@@ -257,54 +258,54 @@
         </div>
     </section>
 
-    <section id="tech" class="py-24 px-6 bg-white border-y border-slate-100">
+    <section id="internadda" class="py-24 px-6 bg-white">
         <div class="max-w-6xl mx-auto">
             <div class="flex flex-col lg:flex-row items-center gap-20">
                 <div class="lg:w-1/2 fade-in-up">
-                    <h2 class="text-3xl md:text-5xl font-extrabold mb-8 tracking-tight text-slate-900">Building InternAdda</h2>
-                    <p class="text-xl text-slate-600 mb-8 leading-relaxed font-normal">
-                        As CTO, Sumit turns ideas into working features. He ensures the platform is fast, modern, secure, and user-friendly.
+                    <h2 class="text-3xl md:text-5xl font-extrabold mb-8 tracking-tight text-slate-900">Role at InternAdda</h2>
+                    <p class="text-xl text-slate-600 mb-12 leading-relaxed font-normal">
+                        As the driving force behind the platform, Lucky wears multiple hats to ensure the ecosystem thrives and delivers real value.
                     </p>
                     
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                        <div class="p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-cyan-200 transition-colors">
-                            <h4 class="font-bold text-slate-900 mb-1">Backend Workflows</h4>
-                            <p class="text-sm text-slate-500">Creating fast APIs & logic.</p>
+                        <div class="p-6 bg-slate-50/80 rounded-2xl border border-slate-100/80 hover:bg-slate-100/80 transition-colors">
+                            <h4 class="font-bold text-lg text-slate-900 mb-2">Strategy & Vision</h4>
+                            <p class="text-[15px] text-slate-600 leading-relaxed">Steering the platform's long-term goals and innovation.</p>
                         </div>
-                        <div class="p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-cyan-200 transition-colors">
-                            <h4 class="font-bold text-slate-900 mb-1">Security</h4>
-                            <p class="text-sm text-slate-500">Ensuring data protection.</p>
+                        <div class="p-6 bg-slate-50/80 rounded-2xl border border-slate-100/80 hover:bg-slate-100/80 transition-colors">
+                            <h4 class="font-bold text-lg text-slate-900 mb-2">Mentorship</h4>
+                            <p class="text-[15px] text-slate-600 leading-relaxed">Directly guiding and motivating students.</p>
                         </div>
-                        <div class="p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-cyan-200 transition-colors">
-                            <h4 class="font-bold text-slate-900 mb-1">Automation</h4>
-                            <p class="text-sm text-slate-500">Optimizing core tech processes.</p>
+                        <div class="p-6 bg-slate-50/80 rounded-2xl border border-slate-100/80 hover:bg-slate-100/80 transition-colors">
+                            <h4 class="font-bold text-lg text-slate-900 mb-2">Content Dev</h4>
+                            <p class="text-[15px] text-slate-600 leading-relaxed">Curating high-impact, practical learning materials.</p>
                         </div>
-                        <div class="p-5 bg-slate-50 rounded-xl border border-slate-100 hover:border-cyan-200 transition-colors">
-                            <h4 class="font-bold text-slate-900 mb-1">Performance</h4>
-                            <p class="text-sm text-slate-500">Speed optimization & stability.</p>
+                        <div class="p-6 bg-slate-50/80 rounded-2xl border border-slate-100/80 hover:bg-slate-100/80 transition-colors">
+                            <h4 class="font-bold text-lg text-slate-900 mb-2">Community</h4>
+                            <p class="text-[15px] text-slate-600 leading-relaxed">Fostering a strong network of ambitious learners.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="lg:w-1/2 w-full fade-in-up stagger-2">
-                    <div class="bg-slate-900 text-white p-10 md:p-14 rounded-[2rem] shadow-2xl relative overflow-hidden isolate">
-                        <div class="absolute top-0 right-0 -mr-24 -mt-24 w-96 h-96 bg-cyan-500/20 rounded-full blur-3xl -z-10"></div>
-                        <div class="absolute bottom-0 left-0 -ml-24 -mb-24 w-80 h-80 bg-blue-600/20 rounded-full blur-3xl -z-10"></div>
+                    <div class="bg-[#0f172a] text-white p-10 md:p-14 rounded-[2.5rem] shadow-2xl relative overflow-hidden isolate">
+                        <div class="absolute top-0 right-0 -mr-24 -mt-24 w-96 h-96 bg-indigo-500/20 rounded-full blur-3xl -z-10"></div>
+                        <div class="absolute bottom-0 left-0 -ml-24 -mb-24 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl -z-10"></div>
                         
-                        <h3 class="text-2xl font-bold mb-8 relative z-10 tracking-tight font-mono text-cyan-400">./Skills_Stack</h3>
+                        <h3 class="text-3xl font-bold mb-8 relative z-10 tracking-tight">Skills & Expertise</h3>
                         <div class="flex flex-wrap gap-3 relative z-10 mb-14">
-                            <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-md font-mono text-sm text-cyan-200">Python</span>
-                            <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-md font-mono text-sm text-cyan-200">JavaScript</span>
-                            <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-md font-mono text-sm text-cyan-200">System Arch</span>
-                            <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-md font-mono text-sm text-cyan-200">API Design</span>
-                            <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-md font-mono text-sm text-cyan-200">Cloud</span>
-                            <span class="px-4 py-2 bg-white/5 border border-white/10 rounded-md font-mono text-sm text-cyan-200">Debugging</span>
+                            <span class="px-5 py-2.5 bg-white/10 backdrop-blur-md rounded-full text-[15px] font-medium border border-white/10 transition hover:bg-white/20 cursor-default">Entrepreneurship</span>
+                            <span class="px-5 py-2.5 bg-white/10 backdrop-blur-md rounded-full text-[15px] font-medium border border-white/10 transition hover:bg-white/20 cursor-default">Student Mentorship</span>
+                            <span class="px-5 py-2.5 bg-white/10 backdrop-blur-md rounded-full text-[15px] font-medium border border-white/10 transition hover:bg-white/20 cursor-default">Digital Strategy</span>
+                            <span class="px-5 py-2.5 bg-white/10 backdrop-blur-md rounded-full text-[15px] font-medium border border-white/10 transition hover:bg-white/20 cursor-default">Public Speaking</span>
+                            <span class="px-5 py-2.5 bg-white/10 backdrop-blur-md rounded-full text-[15px] font-medium border border-white/10 transition hover:bg-white/20 cursor-default">EdTech</span>
+                            <span class="px-5 py-2.5 bg-white/10 backdrop-blur-md rounded-full text-[15px] font-medium border border-white/10 transition hover:bg-white/20 cursor-default">Leadership</span>
                         </div>
 
                         <div class="pt-10 border-t border-white/10 relative z-10">
-                            <h3 class="text-xl font-bold mb-4 tracking-tight text-white">Vision</h3>
-                            <p class="text-slate-300 text-lg leading-relaxed font-light">
-                                "To build technology that is <span class="text-white font-medium">Simple, Fast, Scalable, and Accessible</span>, making InternAdda one of India’s most reliable ed-tech platforms."
+                            <h3 class="text-2xl font-bold mb-6 tracking-tight">Mission & Vision</h3>
+                            <p class="text-slate-300 text-lg italic leading-relaxed font-light">
+                                "To democratize access to internships and practical skills, ensuring that every student in India, regardless of their background, has the opportunity to Learn, Intern, and Earn."
                             </p>
                         </div>
                     </div>
@@ -318,50 +319,50 @@
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-14 text-slate-900 fade-in-up tracking-tight">Frequently Asked Questions</h2>
             
             <div class="space-y-4 fade-in-up stagger-1">
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-cyan-300 transition-colors">
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden hover:border-slate-300 transition-colors">
                     <button class="faq-btn w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none group">
-                        <span class="font-semibold text-lg text-slate-900 group-hover:text-cyan-700 transition-colors">Who is Sumit Pandey?</span>
-                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-cyan-700">+</span>
+                        <span class="font-semibold text-lg text-slate-900 group-hover:text-blue-600 transition-colors">Who is the founder of InternAdda?</span>
+                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-blue-600">+</span>
                     </button>
                     <div class="accordion-content bg-slate-50/50">
                         <div class="px-8 py-6 text-slate-600 border-t border-slate-100 leading-relaxed text-[1.05rem]">
-                            Sumit Pandey is the CTO (Chief Technology Officer) of InternAdda, responsible for platform development, backend architecture, and core technology decisions.
+                            Lucky Tiwari (also known as Lucky Kumar) is the Founder of InternAdda. He is an educator and mentor focused on bridging the gap between academic learning and industry needs.
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-cyan-300 transition-colors">
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden hover:border-slate-300 transition-colors">
                     <button class="faq-btn w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none group">
-                        <span class="font-semibold text-lg text-slate-900 group-hover:text-cyan-700 transition-colors">Where is Sumit Pandey from?</span>
-                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-cyan-700">+</span>
+                        <span class="font-semibold text-lg text-slate-900 group-hover:text-blue-600 transition-colors">Where is Lucky Tiwari from?</span>
+                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-blue-600">+</span>
                     </button>
                     <div class="accordion-content bg-slate-50/50">
                         <div class="px-8 py-6 text-slate-600 border-t border-slate-100 leading-relaxed text-[1.05rem]">
-                            He was born in Bihar, India.
+                            Lucky Tiwari was born in Jharkhand, India, and later moved to Delhi for his higher education and career.
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-cyan-300 transition-colors">
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden hover:border-slate-300 transition-colors">
                     <button class="faq-btn w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none group">
-                        <span class="font-semibold text-lg text-slate-900 group-hover:text-cyan-700 transition-colors">What is Sumit’s year of birth?</span>
-                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-cyan-700">+</span>
+                        <span class="font-semibold text-lg text-slate-900 group-hover:text-blue-600 transition-colors">What is Lucky’s qualification?</span>
+                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-blue-600">+</span>
                     </button>
                     <div class="accordion-content bg-slate-50/50">
                         <div class="px-8 py-6 text-slate-600 border-t border-slate-100 leading-relaxed text-[1.05rem]">
-                            Sumit Pandey was born in 2005.
+                            Lucky is a graduate of Delhi University (DU), where he engaged deeply in peer teaching and practical skill development alongside his formal studies.
                         </div>
                     </div>
                 </div>
 
-                <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:border-cyan-300 transition-colors">
+                <div class="bg-white rounded-2xl shadow-sm border border-slate-200/80 overflow-hidden hover:border-slate-300 transition-colors">
                     <button class="faq-btn w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none group">
-                        <span class="font-semibold text-lg text-slate-900 group-hover:text-cyan-700 transition-colors">What does Sumit do at InternAdda?</span>
-                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-cyan-700">+</span>
+                        <span class="font-semibold text-lg text-slate-900 group-hover:text-blue-600 transition-colors">What does Lucky do at InternAdda?</span>
+                        <span class="transform transition-transform duration-300 icon-plus text-slate-400 text-2xl group-hover:text-blue-600">+</span>
                     </button>
                     <div class="accordion-content bg-slate-50/50">
                         <div class="px-8 py-6 text-slate-600 border-t border-slate-100 leading-relaxed text-[1.05rem]">
-                            He leads all major technology operations including platform development, automation, security, and feature engineering.
+                            He leads strategy, mentorship programs, content creation, and overall operations to ensure the platform delivers value to students.
                         </div>
                     </div>
                 </div>
@@ -373,24 +374,24 @@
         <div class="max-w-6xl mx-auto px-6">
             <div class="flex flex-col md:flex-row justify-between items-center mb-12">
                 <div class="mb-10 md:mb-0 text-center md:text-left">
-                    <h2 class="text-3xl font-bold text-white mb-3 tracking-tight">Sumit Pandey</h2>
-                    <p class="text-base font-medium text-slate-500 font-mono">CTO @ InternAdda</p>
+                    <h2 class="text-3xl font-bold text-white mb-3 tracking-tight">Lucky Tiwari</h2>
+                    <p class="text-base font-medium text-slate-500">Founder of InternAdda • Empowering Learners</p>
                 </div>
                 
                 <div class="flex items-center gap-8">
-                    <a href="https://www.linkedin.com/in/sumit-pandey-a94a052a1/" target="_blank" class="text-slate-500 hover:text-linkedin transition-colors hover:scale-110 transform duration-200" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/in/luckytiwari/" target="_blank" class="text-slate-500 hover:text-linkedin transition-colors hover:scale-110 transform duration-200" aria-label="LinkedIn">
                         <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
                     </a>
-                    <a href="https://x.com/InternaddaX?t=kcOjon9uw6aaqoreZqxKDw&s=09" target="_blank" class="text-slate-500 hover:text-white transition-colors hover:scale-110 transform duration-200" aria-label="X (Twitter)">
-                         <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    <a href="https://x.com/FounderIA?t=bZ0vznscxSm5HJFYcX2Ppw&s=08" target="_blank" class="text-slate-500 hover:text-white transition-colors hover:scale-110 transform duration-200" aria-label="X (Twitter)">
+                        <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
                     </a>
-                    <a href="https://www.instagram.com/sumit_pandey05/?igsh=MTJ1ams5ejQ2ZmVzdg%3D%3D#" target="_blank" class="text-slate-500 hover:text-instagram transition-colors hover:scale-110 transform duration-200" aria-label="Instagram">
-                        <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.451 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                    <a href="https://www.instagram.com/the.luckytiwari?igsh=MWRuYnIwZXJ6MDJkNQ==" target="_blank" class="text-slate-500 hover:text-instagram transition-colors hover:scale-110 transform duration-200" aria-label="Instagram">
+                        <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.585-.069 4.85c-.148 3.225-1.664 4.771-4.919 4.919-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.148-4.771-1.691-4.919-4.919-.058-1.265-.069-1.646-.069-4.85s.012-3.584.069-4.85c.148-3.225 1.664-4.771 4.919-4.919 1.266-.058 1.646-.07 4.85-.07m0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.073-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.689-.073-4.948-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
                     </a>
                     <a href="https://www.youtube.com/@theinternadda" target="_blank" class="text-slate-500 hover:text-youtube transition-colors hover:scale-110 transform duration-200" aria-label="YouTube">
                          <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
                     </a>
-                      <a href="mailto:cto_sumit@internadda.com" class="text-slate-500 hover:text-white transition-colors hover:scale-110 transform duration-200" aria-label="Email">
+                      <a href="mailto:founder@internadda.com" class="text-slate-500 hover:text-white transition-colors hover:scale-110 transform duration-200" aria-label="Email">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7">
                           <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                           <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
@@ -399,8 +400,8 @@
                 </div>
             </div>
             <div class="border-t border-slate-800/50 pt-8 text-sm text-center md:text-left flex flex-col md:flex-row justify-between text-slate-500">
-                <p>&copy; <script>document.write(new Date().getFullYear())</script> Sumit Pandey. All rights reserved.</p>
-                <p class="mt-3 md:mt-0">Engineered by InternAdda.</p>
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Lucky Tiwari. All rights reserved.</p>
+                <p class="mt-3 md:mt-0">Designed & Built with precision.</p>
             </div>
         </div>
     </footer>
@@ -450,11 +451,11 @@
                     content.style.maxHeight = null;
                     content.classList.remove('active');
                     icon.innerHTML = '+';
-                    icon.classList.add('rotate-45');
+                    icon.classList.remove('rotate-45');
                 } else {
                     content.style.maxHeight = content.scrollHeight + "px";
                     content.classList.add('active');
-                    icon.innerHTML = '+'; 
+                    icon.innerHTML = '+'; // Keep plus, rotate it
                     icon.classList.add('rotate-45');
                 }
             });
